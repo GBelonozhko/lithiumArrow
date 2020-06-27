@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/lithiumArrow/static/css/main.5f361e03.chunk.css",
+    "main.js": "/lithiumArrow/static/js/main.4365ae15.chunk.js",
+    "main.js.map": "/lithiumArrow/static/js/main.4365ae15.chunk.js.map",
+    "runtime-main.js": "/lithiumArrow/static/js/runtime-main.617aa8e1.js",
+    "runtime-main.js.map": "/lithiumArrow/static/js/runtime-main.617aa8e1.js.map",
+    "static/js/2.7ce2b2a7.chunk.js": "/lithiumArrow/static/js/2.7ce2b2a7.chunk.js",
+    "static/js/2.7ce2b2a7.chunk.js.map": "/lithiumArrow/static/js/2.7ce2b2a7.chunk.js.map",
+    "index.html": "/lithiumArrow/index.html",
+    "precache-manifest.0b0d6e0cd378e8c4734c19dc2b20ccc9.js": "/lithiumArrow/precache-manifest.0b0d6e0cd378e8c4734c19dc2b20ccc9.js",
+    "service-worker.js": "/lithiumArrow/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/lithiumArrow/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.7ce2b2a7.chunk.js.LICENSE.txt": "/lithiumArrow/static/js/2.7ce2b2a7.chunk.js.LICENSE.txt",
+    "static/media/black-stone-2363901.jpg": "/lithiumArrow/static/media/black-stone-2363901.262776a0.jpg",
+    "static/media/close-up-photo-of-amethyst-4040585.jpg": "/lithiumArrow/static/media/close-up-photo-of-amethyst-4040585.8d52c4ca.jpg",
+    "static/media/logo.svg": "/lithiumArrow/static/media/logo.5d5d9eef.svg",
+    "static/media/white-stone-56030.jpg": "/lithiumArrow/static/media/white-stone-56030.600b7bda.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.617aa8e1.js",
+    "static/js/2.7ce2b2a7.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4365ae15.chunk.js"
+  ]
+}
