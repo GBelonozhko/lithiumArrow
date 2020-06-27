@@ -26,7 +26,7 @@ return (
     <BrowserRouter>
         <Nav/>
         <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/lithiumArrow" exact component={Home} />
            
         </Switch>
     </BrowserRouter>
