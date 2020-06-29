@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Container from '@material-ui/core/Container';
-import image1 from '../assets/black-stone-2363901.jpg'
-import image2 from '../assets/close-up-photo-of-amethyst-4040585.jpg'
+import image1 from '../assets/IMG_1170.png'
+import image2 from '../assets/IMG_1170.png'
 import image3 from '../assets/white-stone-56030.jpg'
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
@@ -41,6 +41,8 @@ export default class Fade extends Component {
       >
         We can put text on pictures just a thought
       </Box>
+
+
      <Box zIndex="modal">
             <img src={image2} />
     </Box>

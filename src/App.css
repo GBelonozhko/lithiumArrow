@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=bf20ca2d7a&attid=0.0.5&permmsgid=msg-f:1670694073174395669&th=172f7f6867e90b15&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8f4h1Osw_PwCE5lAO3vWs1os0aNa_Vbd9-uAy075HmUPee3Nwo0YizfHli_PaZqLd9LgLPGkQRfhBf7E1pcFSr-BH767fYEnwdKh9svQ8wsjQiiF0yHVjOUfY&disp=emb&realattid=ii_kby8hllm5");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallelogram1 {
+  width: 1400px;
+  height: 200px;
+  transform: skew(20deg);
+  background: black;
+  left:-190px;
+  position: relative;
+}
+
+#parallelogram2 {
+  width: 1050px;
+  height: 200px;
+  transform: skew(20deg);
+  background: grey;
+  left:1000px;
+  position: relative;
+}
