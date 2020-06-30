@@ -7,6 +7,8 @@ import Typography from '@material-ui/core/Typography';
 import Card1 from '../Components/Card1';
 import Card2 from '../Components/Card2';
 import Card3 from '../Components/Card3';
+import Hidden from '@material-ui/core/Hidden';
+import ChartImage from '../assets/column1.72.name(1).jpg';
 
 const Home = () => {
 
@@ -93,30 +95,54 @@ const Home = () => {
        
                 <div className="parallax"></div>
 
+            <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="center"
+              className='my-4'
+            >
+                <Grid className='mx-4 my-4'>                        
+                    <Card1/>
+                </Grid>
 
+                <Grid className='mx-4 my-4'>                        
+                    <Card2/>
+                </Grid>
 
-           <Card1/>
-
+                <Grid className='mx-4 my-4'>                        
+                    <Card3/>
+                </Grid>
+            </Grid>
+           <Hidden smDown>
            <Grid
                   container
                   direction="row"
                   justify="center"
                   alignItems="center"
-                >
-                    <Grid xs={2}>
+            >
+                    <Grid xs={9}>
                         <div id='parallelogram1'>
-                            <Typography variant="h2" component="h2" color='secondary' align='center'>
+
+                            <Typography variant="h2" component="h2" color='secondary' align='center' className='float-right mx-5'>
                                  Lithium We Find It You Claim It
                             </Typography>
                         </div>
                     </Grid>
 
-                    <Grid xs={10}> 
+                    <Grid xs={3}> 
+                    <div id='square'/>
                         <div id='parallelogram2'>
+                        
                         </div>
+                        
                     </Grid>
 
                 </Grid>
+            </Hidden>    
+            
+      
+
 
         </div>
            

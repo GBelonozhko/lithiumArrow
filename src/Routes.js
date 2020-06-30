@@ -4,10 +4,12 @@ import Home from "./Pages/Home";
 import { createMuiTheme } from '@material-ui/core/styles';
 import purple from '@material-ui/core/colors/blue';
 import green from '@material-ui/core/colors/green';
-import { ThemeProvider } from '@material-ui/core/styles'
+import { ThemeProvider } from '@material-ui/core/styles';
 
 
-import Nav from "./Components/AppBar/AppBar"
+
+import Nav from "./Components/AppBar/AppBar";
+import Footer from "./Components/Footer";
 
 const Routes = () => {
 
@@ -29,6 +31,7 @@ return (
             <Route path="/lithiumArrow" exact component={Home} />
            
         </Switch>
+        <Footer/>
     </BrowserRouter>
     </ThemeProvider>
 )

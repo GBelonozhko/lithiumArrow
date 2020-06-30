@@ -12,6 +12,7 @@ import MenuButton from "./NavDrawer";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    marginBottom:'4rem'
   },
  
   title: {
@@ -24,15 +25,15 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
           
           <Typography variant="h6" className={classes.title}>
             LithiumArrow.com
           </Typography>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-           <MenuButton/>
-          </IconButton>
+          
+           <MenuButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"/>
+          
         </Toolbar>
       </AppBar>
     </div>
