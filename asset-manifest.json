@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/lithiumArrow/static/css/main.9b0cfcf9.chunk.css",
-    "main.js": "/lithiumArrow/static/js/main.31c54daf.chunk.js",
-    "main.js.map": "/lithiumArrow/static/js/main.31c54daf.chunk.js.map",
+    "main.css": "/lithiumArrow/static/css/main.1f18c201.chunk.css",
+    "main.js": "/lithiumArrow/static/js/main.f0127d07.chunk.js",
+    "main.js.map": "/lithiumArrow/static/js/main.f0127d07.chunk.js.map",
     "runtime-main.js": "/lithiumArrow/static/js/runtime-main.617aa8e1.js",
     "runtime-main.js.map": "/lithiumArrow/static/js/runtime-main.617aa8e1.js.map",
-    "static/js/2.618f0a06.chunk.js": "/lithiumArrow/static/js/2.618f0a06.chunk.js",
-    "static/js/2.618f0a06.chunk.js.map": "/lithiumArrow/static/js/2.618f0a06.chunk.js.map",
+    "static/js/2.99310cc9.chunk.js": "/lithiumArrow/static/js/2.99310cc9.chunk.js",
+    "static/js/2.99310cc9.chunk.js.map": "/lithiumArrow/static/js/2.99310cc9.chunk.js.map",
     "index.html": "/lithiumArrow/index.html",
-    "precache-manifest.e1a7334ecf8e46b91ca8639bb43ba53d.js": "/lithiumArrow/precache-manifest.e1a7334ecf8e46b91ca8639bb43ba53d.js",
+    "precache-manifest.6ee2f974d6a88eabd493f856502fbf62.js": "/lithiumArrow/precache-manifest.6ee2f974d6a88eabd493f856502fbf62.js",
     "service-worker.js": "/lithiumArrow/service-worker.js",
-    "static/css/main.9b0cfcf9.chunk.css.map": "/lithiumArrow/static/css/main.9b0cfcf9.chunk.css.map",
-    "static/js/2.618f0a06.chunk.js.LICENSE.txt": "/lithiumArrow/static/js/2.618f0a06.chunk.js.LICENSE.txt",
+    "static/css/main.1f18c201.chunk.css.map": "/lithiumArrow/static/css/main.1f18c201.chunk.css.map",
+    "static/js/2.99310cc9.chunk.js.LICENSE.txt": "/lithiumArrow/static/js/2.99310cc9.chunk.js.LICENSE.txt",
     "static/media/Bioteach.png": "/lithiumArrow/static/media/Bioteach.2bb12f80.png",
+    "static/media/F193_Ingraffia.pdf": "/lithiumArrow/static/media/F193_Ingraffia.1aa6f888.pdf",
     "static/media/IMG_1170.png": "/lithiumArrow/static/media/IMG_1170.acb65df9.png",
+    "static/media/LithiumAtTheThackerPassDepositHumboldtCountyNevadaUSA.pdf": "/lithiumArrow/static/media/LithiumAtTheThackerPassDepositHumboldtCountyNevadaUSA.58157999.pdf",
+    "static/media/Picture1.jpg": "/lithiumArrow/static/media/Picture1.9cf2cc93.jpg",
+    "static/media/Picture2.jpg": "/lithiumArrow/static/media/Picture2.e478c06c.jpg",
+    "static/media/Picture3.jpg": "/lithiumArrow/static/media/Picture3.ba1f7ce8.jpg",
+    "static/media/Thacker_Thesis_Ingraffia_PPT.pdf": "/lithiumArrow/static/media/Thacker_Thesis_Ingraffia_PPT.678f31d3.pdf",
     "static/media/biohappysuit.png": "/lithiumArrow/static/media/biohappysuit.e7c680ea.png",
-    "static/media/black-stone-2363901.jpg": "/lithiumArrow/static/media/black-stone-2363901.262776a0.jpg",
+    "static/media/column1.72.name(1).jpg": "/lithiumArrow/static/media/column1.72.name(1).61170c54.jpg",
     "static/media/logo.svg": "/lithiumArrow/static/media/logo.5d5d9eef.svg",
     "static/media/white-stone-56030.jpg": "/lithiumArrow/static/media/white-stone-56030.600b7bda.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.617aa8e1.js",
-    "static/js/2.618f0a06.chunk.js",
-    "static/css/main.9b0cfcf9.chunk.css",
-    "static/js/main.31c54daf.chunk.js"
+    "static/js/2.99310cc9.chunk.js",
+    "static/css/main.1f18c201.chunk.css",
+    "static/js/main.f0127d07.chunk.js"
   ]
 }
