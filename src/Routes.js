@@ -32,11 +32,11 @@ return (
     <BrowserRouter>
         <Nav/>
         <Switch>
-            <Route path="/lithiumArrow" exact component={Home} />
-            <Route path="/lithiumArrow/home" exact component={Home} />
-            <Route path="/lithiumArrow/Discoveries" exact component={Discovories}/>
-            <Route path="/lithiumArrow/AboutUs" exact component={AboutUs}/>
-            <Route path="/lithiumArrow/ContactUs" exact component={ContactUs}/>
+            <Route path="/" exact component={Home} />
+            
+            <Route path="/Discoveries" exact component={Discovories}/>
+            <Route path="/AboutUs" exact component={AboutUs}/>
+            <Route path="/ContactUs" exact component={ContactUs}/>
         </Switch>
         <Footer/>
     </BrowserRouter>

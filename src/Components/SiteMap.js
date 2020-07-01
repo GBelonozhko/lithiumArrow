@@ -15,7 +15,7 @@ export default function SimpleMenu() {
     setAnchorEl(null);
   };
 
-  const URL ='https://gbelonozhko.github.io/lithiumArrow/';
+  
 
   return (
     <div>
@@ -29,10 +29,10 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <Link href="/lithiumArrow"> <MenuItem onClick={handleClose}>Home</MenuItem></Link>
-        <Link href="/lithiumArrow/Discoveries"> <MenuItem onClick={handleClose}>Discovories</MenuItem></Link>
-        <Link href="/lithiumArrow/AboutUs"><MenuItem onClick={handleClose}>About Us</MenuItem></Link>
-        <Link href="/lithiumArrow/ContactUs"><MenuItem onClick={handleClose}>Contact Us</MenuItem></Link>
+        <Link href="/"> <MenuItem onClick={handleClose}>Home</MenuItem></Link>
+        <Link href="/Discoveries"> <MenuItem onClick={handleClose}>Discovories</MenuItem></Link>
+        <Link href="/AboutUs"><MenuItem onClick={handleClose}>About Us</MenuItem></Link>
+        <Link href="/ContactUs"><MenuItem onClick={handleClose}>Contact Us</MenuItem></Link>
         <MenuItem onClick={handleClose}>Downloads</MenuItem>
         <MenuItem onClick={handleClose}>References</MenuItem>
         <MenuItem onClick={handleClose}>Credentials</MenuItem>
