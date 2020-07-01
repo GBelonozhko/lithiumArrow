@@ -29,10 +29,10 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <Link href={URL}> <MenuItem onClick={handleClose}>Home</MenuItem></Link>
-        <Link href={URL + "Discoveries"}> <MenuItem onClick={handleClose}>Discovories</MenuItem></Link>
-        <Link href={URL + "AboutUs"}><MenuItem onClick={handleClose}>About Us</MenuItem></Link>
-        <Link href={URL + "ContactUs"}><MenuItem onClick={handleClose}>Contact Us</MenuItem></Link>
+        <Link href="/lithiumArrow"> <MenuItem onClick={handleClose}>Home</MenuItem></Link>
+        <Link href="/lithiumArrow/Discoveries"> <MenuItem onClick={handleClose}>Discovories</MenuItem></Link>
+        <Link href="/lithiumArrow/AboutUs"><MenuItem onClick={handleClose}>About Us</MenuItem></Link>
+        <Link href="/lithiumArrow/ContactUs"><MenuItem onClick={handleClose}>Contact Us</MenuItem></Link>
         <MenuItem onClick={handleClose}>Downloads</MenuItem>
         <MenuItem onClick={handleClose}>References</MenuItem>
         <MenuItem onClick={handleClose}>Credentials</MenuItem>
