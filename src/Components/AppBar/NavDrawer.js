@@ -10,6 +10,11 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
+import Link from '@material-ui/core/Link';
+
+import { FcBusinessContact } from 'react-icons/fc';
+import { FcAbout } from 'react-icons/fc';
+import { FcHome } from 'react-icons/fc';
 import { GiCrystalGrowth } from 'react-icons/gi';
 import { GiCrystalBars } from 'react-icons/gi';
 
@@ -49,12 +54,42 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Home', 'Discovories', 'About Us', 'Contact Us'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <GiCrystalGrowth /> : <GiCrystalBars />}</ListItemIcon>
-            <ListItemText primary={text} />
+        <Link href="/lithiumArrow">
+          <ListItem button >
+          
+            <ListItemIcon> <FcHome/> </ListItemIcon>
+            <ListItemText primary="Home"  />
+            
           </ListItem>
-        ))}
+        </Link>
+
+        <Link href="/lithiumArrow/Discoveries">
+          <ListItem button >
+          
+            <ListItemIcon> <GiCrystalGrowth/> </ListItemIcon>
+            <ListItemText primary="Discoveries"  />
+            
+          </ListItem>
+        </Link>
+
+        <Link href="/lithiumArrow/AboutUs">
+          <ListItem button >
+          
+            <ListItemIcon> <FcAbout/> </ListItemIcon>
+            <ListItemText primary="About Us"  />
+            
+          </ListItem>
+        </Link>
+
+        <Link href="/lithiumArrow/ContactUs">
+          <ListItem button >
+          
+            <ListItemIcon> <FcBusinessContact/> </ListItemIcon>
+            <ListItemText primary="Contact Us"  />
+            
+          </ListItem>
+        </Link>
+        
       </List>
       <Divider />
       <List>

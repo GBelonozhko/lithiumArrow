@@ -19,6 +19,8 @@ import SearchIcon from '@material-ui/icons/Search';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import SiteMap from './SiteMap'
 import Social from './SocialMediaLinks'
+import Hidden from '@material-ui/core/Hidden';
+import Grid from '@material-ui/core/Grid';
 
 const messages = [
  
@@ -64,6 +66,32 @@ export default function BottomAppBar() {
         <Typography className={classes.text} variant="h5" gutterBottom>
           
         </Typography>
+
+        <Hidden smDown>
+            <Grid
+                   container
+                   direction="row"
+                   justify="center"
+                   alignItems="center"
+             >
+                     <Grid xs={9}>
+                         <div id='parallelogram1'>
+ 
+                            
+                         </div>
+                     </Grid>
+ 
+                     <Grid xs={3}> 
+                     <div id='square'/>
+                         <div id='parallelogram2'>
+                         
+                         </div>
+                         
+                     </Grid>
+ 
+                 </Grid>
+             </Hidden>    
+
         <List className={classes.list}>
           {messages.map(({ id, primary, secondary, person }) => (
             <React.Fragment key={id}>
@@ -82,7 +110,7 @@ export default function BottomAppBar() {
       <AppBar position="fixed" color="primary" className={classes.appBar}>
         <Toolbar>
             <SiteMap/>
-          <Fab color="secondary" aria-label="add" className={classes.fabButton}>
+          <Fab color="secondary" aria-label="add" className={classes.fabButton} href="mailto: ingraffiajames@gmail.com">
             <AddIcon />
           </Fab>
           <div className={classes.grow} />

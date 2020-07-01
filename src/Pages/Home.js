@@ -114,32 +114,7 @@ const Home = () => {
                     <Card3/>
                 </Grid>
             </Grid>
-           <Hidden smDown>
-           <Grid
-                  container
-                  direction="row"
-                  justify="center"
-                  alignItems="center"
-            >
-                    <Grid xs={9}>
-                        <div id='parallelogram1'>
-
-                            <Typography variant="h2" component="h2" color='secondary' align='center' className='float-right mx-5'>
-                                 Lithium We Find It You Claim It
-                            </Typography>
-                        </div>
-                    </Grid>
-
-                    <Grid xs={3}> 
-                    <div id='square'/>
-                        <div id='parallelogram2'>
-                        
-                        </div>
-                        
-                    </Grid>
-
-                </Grid>
-            </Hidden>    
+          
             
       
 
