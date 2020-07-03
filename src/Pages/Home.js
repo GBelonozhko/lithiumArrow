@@ -8,25 +8,64 @@ import Card1 from '../Components/Card1';
 import Card2 from '../Components/Card2';
 import Card3 from '../Components/Card3';
 import Hidden from '@material-ui/core/Hidden';
-import ChartImage from '../assets/column1.72.name(1).jpg';
+import HorizImgList from '../Components/GridImgListHorriz';
+
+import img1 from '../assets/column1.72.name(1).jpg'
+
+import Table1 from '../Components/Table1';
+import Table2 from '../Components/Table2';
+
 
 const Home = () => {
 
 
     return(
         <div>
+
+
+        
+
+
             <div className="bioComponent mb-5">
+            
                 <Grid
                    container
                    direction="row"
                    justify="center"
                    alignItems="top"
                 >
+                
+                <Grid xs={12} >
+                        <Typography variant="h1" component="h2" color='default' align='center'>
+                            Best Reasons To Hire!
+                        </Typography>
+                    </Grid>
+
+                    
+
+                    <Grid xs={12} sm={12} md={6} className=' mx-5 '>
+                        <Table1/>
+                        <div className='my-5'>
+                        <Table2 />
+                        </div>
+                    </Grid>
+                    <Hidden smDown>
+                    <Grid xs={12} sm={12} md={4} className=' mx-5 '>
+                  
+
+                    <img src={img1} />
+                    </Grid>
+                    </Hidden>
+
+                    <HorizImgList/>
+
                     <Grid xs={12} >
-                        <Typography variant="h1" component="h2" color='secondary' align='center'>
+                        <Typography variant="h1" component="h2" color='default' align='center'>
                             James Lithium Arrow Founder and CEO
                         </Typography>
                     </Grid>
+
+                    
       
                     <Grid  xs={12} lg={5}  className=" mt-3 mx-3" >
                         <Typography  variant="body1" gutterBottom>
