@@ -54,7 +54,7 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <Link href="/lithiumArrow">
+        <Link href="/">
           <ListItem button >
           
             <ListItemIcon> <FcHome/> </ListItemIcon>
@@ -63,7 +63,7 @@ export default function TemporaryDrawer() {
           </ListItem>
         </Link>
 
-        <Link href="/lithiumArrow/Discoveries">
+        <Link href="/Discoveries">
           <ListItem button >
           
             <ListItemIcon> <GiCrystalGrowth/> </ListItemIcon>
@@ -72,7 +72,7 @@ export default function TemporaryDrawer() {
           </ListItem>
         </Link>
 
-        <Link href="/lithiumArrow/AboutUs">
+        <Link href="/AboutUs">
           <ListItem button >
           
             <ListItemIcon> <FcAbout/> </ListItemIcon>
@@ -81,7 +81,7 @@ export default function TemporaryDrawer() {
           </ListItem>
         </Link>
 
-        <Link href="/lithiumArrow/ContactUs">
+        <Link href="/ContactUs">
           <ListItem button >
           
             <ListItemIcon> <FcBusinessContact/> </ListItemIcon>
